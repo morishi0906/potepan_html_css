@@ -1,0 +1,846 @@
+
+body {
+    list-style: none;
+    text-align: center;
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.backcolor {
+    width: 900px;
+    background:rgb(252,250,244);
+    padding: 20px 0;
+    border-radius: 25px 25px;
+}
+
+.btn:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+.btn2:hover {
+    color: #f79314;
+    transition: .3s;
+}
+
+#orange {
+    color: #f79314;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    height: 55px;
+    
+}
+
+.header-logo {
+    float:left;
+    width: 170px;
+    margin: 10px 20px;
+}
+
+.header-link {
+    float:left;
+    line-height: 5px;
+    padding: 5px 15px;
+    margin-right: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.header-link-all span {
+    display:none;
+}
+
+.header-link-all {
+    float: right;
+    margin-top: 10px;
+}    
+
+.muryou {
+    padding: 15px 25px;
+    background-color: #f79314;
+    color:white;
+    border-radius: 20px 20px;
+}
+
+.main {
+    position: relative;
+    height: 300px;
+    width: 900px;
+    margin: 70px auto 0;
+  
+}    
+
+.block {
+    float: left;
+  
+}
+    
+
+.blockleft {
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.blockleft-muryou {
+    display: block;
+    background-color: #f79314;
+    padding: 15px 80px;
+    border-radius: 50px / 50px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+ }
+
+.blockleft span {
+    color: #f79314;
+}
+
+.blockleft img {
+    width:100%;
+}
+
+.blockcenter {
+    width: 300px;
+    height: 300px;
+    text-align: left;
+
+}
+
+.blockcenterSumaho {
+    display: none;
+}
+
+.blockright {
+    width: 300px;
+    height: 300px;
+ 
+    
+}
+
+.shopper {
+    margin: 0 auto;
+    display: block;
+    width: 900px;
+    text-align: left;
+    color: #888888;
+    font-size: 8px;
+    padding-top: 20px;
+}
+
+.shopper p {
+    width: 450px;
+    background:rgba(255,255,255,0.5);
+}
+
+.blockbottom {
+    background-color: #f79314;
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+
+.banner-pc {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.banner-sumaho {
+    display: none;
+}
+
+.baner-bottom {
+    display: block;
+    width: 900px;
+    margin: 50px auto;
+}
+
+
+.baner-bottom p {
+    font-size: 14px;
+    color:white;
+    
+}
+
+.potepantoha {
+    width:500px;
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    text-align: left;
+    float:left;
+}
+
+.potepantoha span {
+    font-size: 32px;
+}
+
+.flow {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    color: #f79314;
+    font-weight: bold;
+    border-radius: 50px / 50px;
+    margin-top: 80px;
+    
+}
+
+.flow p {
+    font-size:10px;
+    color: #f79314;
+    line-height: 5px;
+}
+
+.tokutyou {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.tokutyou p {
+    font-size: 16px;
+}    
+
+.bar {
+    background-color: #f79314;
+    height: 5px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.bar-2 {
+  background-color: #f79314;
+  height: 4px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+.seikousha {
+    font-size: 24px;
+    margin-top: 60px;
+    background-color: white;
+    margin: 60px 30px;
+    border-radius: 25px 25px;
+}
+
+
+.panda {
+    width: 35px;
+}
+
+.section {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.number {
+    display: inline-block;
+    font-family: monospace;
+    color: #f79314;
+    font-size:24px;
+    font-weight: bold;
+    background:rgb(252,250,244);
+    width: 120px;
+    height:60px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 60px 60px 0 0;
+}
+
+.section-tittle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.section-main {
+    display: block;
+    text-align: left;
+    width: 800px;
+    margin: 60px auto;
+    height: 300px;
+    background-color: white;
+    padding:30px;
+    border-radius: 25px 25px;
+}
+
+.section-block {
+    float: left;
+    width: 400px;
+    height: 220px;
+}
+
+.section-blockright {
+    text-align: left;
+    font-size: 13px;
+}
+.section-blockright p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-blockleft img {
+    width: 390px;
+}
+
+.section-sub {
+    margin: 30px auto;
+    line-height: 7px;
+    font-weight: bold;
+}
+
+.section-sub span{
+    color: #f79314;
+    font-size:20px;
+}
+
+.section-link {
+    float: right;
+    border-radius: 10px 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #AAAAAA;
+
+}
+
+.section-name {
+    color:#CCCCCC;
+    font-size: 6px;
+}
+
+.section-link span {
+    color: #f79314;
+    
+}
+
+.menber {
+    margin: 50px auto 0;
+    width: 900px;
+    height: 750px;
+}
+
+.profile {
+    display: block;
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 0 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.profile a:hover{
+    color:#f79314;
+    transition: .3s;
+}
+
+.profile img {
+    float:left;
+    margin: 30px;
+    width: 60px;
+}
+.profile h3{
+    padding-top: 20px;
+    font-size: 14px;
+    
+}
+
+.profile p {
+    font-size: 12px;    
+}
+
+.profile span {
+    color: #f79314;
+    float: right;
+    margin-left:5px;
+}
+
+.section3-list {
+    width: 830px;
+    margin: 0 auto;
+    height: 480px;
+}
+
+.section3-member {
+    display: block;
+    width:220px;
+    float:left;
+    margin: 80px 25px;
+    background-color: white;
+    height:370px;
+    border-radius: 25px 25px;
+}
+
+.section3-member img {
+    width: 180px;
+    height: 35px;
+    float: left;
+    margin:10px 0px 50px 10px;
+}
+
+.trm img {
+    height:35px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.section3name {
+    text-align: left;
+    padding: 50px 0 20px 0;
+    line-height: 7px;
+
+}
+
+.section3name img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+.section3Rails{
+    display: block;
+    width:190px;
+    font-weight: bold;
+}
+
+.section3text {
+    position: relative;
+    text-align: left;
+    margin: 25px 20px;
+    padding: 20px 10px;
+    font-size:13px;
+    background:rgb(246,246,246);
+    border-radius: 25px 25px;
+}
+
+.section3text:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 20%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid rgb(246,246,246);
+}
+
+.corse {
+    display: block;
+    margin: 20px auto 0;
+    width: 850px;
+    height: 250px;
+    background-color: white;
+    padding:0 20px;
+}
+
+.rails-calia {
+    margin-top: 50px;
+    border: 3px solid #f79314;
+    border-image: linear-gradient(to right, orange 0%, red 100%);
+    border-image-slice: 1;
+    font-size: 20px;
+    font-weight: bold;
+    width:220px;
+    height:140px;
+    
+}
+
+.logo-img {
+    display: block;
+    background: rgb(252,250,244);
+    width: 900px;
+    height: 600px;
+    float: left;
+    padding-top: 50px;
+    margin: 20px auto 10px auto;
+}
+
+.logo-img img {
+    width: 140px;
+    height:70px;
+    margin: 20px 20px;
+}
+
+.corse h3 {
+    color:#f79314;
+    font-size: 18px;
+    
+}
+
+.rails {
+    float: left;
+}
+
+.mikeiken {
+    text-align: left;
+    margin: 30px;
+}
+
+.mikeiken h2 {
+    font-size: 20px;
+    color: #f79314;
+    margin-left: 20px;
+}
+
+.section5-text{
+    list-style: disc;
+    text-align: left;
+    padding: 60px 0 30px;
+}
+
+.section5-text ul {
+    padding: 30px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px 25px;
+    
+}
+
+.section5 p{
+    float:left;
+    font-size: 8px;
+}
+
+.section6 {
+    margin-top: 100px;
+    background: rgb(246,246,246);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    background-size: 300px;
+    widht: 100%;
+    height: 680px;
+    padding-top: 20px;
+} 
+
+.kuro {
+    margin: 20px;
+}
+
+.kuro span {
+    background-color: #444444;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 20px 20px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.course-a {
+    width: 250px;
+    margin: 50px auto;
+}
+
+.course {
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: #f79314;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    font-weight: bold;
+    
+}
+
+.course p {
+    font-size: 10px;
+    line-height: 1px;
+}
+
+.section7 {
+    display: block;
+    background:rgb(251,250,245);
+    padding-top: 50px;
+    width: 100%;
+    height: 650px;
+}
+
+.message-responsive {
+    display: none;
+}
+
+.message-text{
+    display: block;
+    width: 560px;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+    padding:30px 80px 10px 10px;
+    float: left;
+}
+
+.message-contents{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.message-contents img {
+    float:right;
+    width: 350px;
+    margin-top: 40px;
+    
+}
+
+.message-tittle{
+    font-size: 40px;
+    color: #f79314;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.message-float {
+    display: block;
+    position: relative;
+}
+.message-float p {
+     position: absolute;
+     top: 40px;
+     left: 670px;
+     color: white;
+     font-size:15px;
+     text-shadow: 3px 3px 3px #CCCCCC; 
+}
+
+.message-float span {
+    font-size: 20px;
+}
+
+.jukouseiAll {
+    width: 990px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.jukousei {
+    display: block;
+    width: 300px;
+    float: left;
+    margin: 40px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.jukousei a:hover{
+    color: #f79314;
+    transition: .3s;
+}
+
+.jukousei img {
+    width: 300px;
+}
+
+.jukousei img:hover {
+    transform:scale(1.1);
+    transition: .3s;
+    width: 100%;
+}
+
+.jukouseiRails {
+    position: absolute;
+    top: 140px;
+    z-index: 1;
+    text-align: left;
+    line-height: 1px;
+    padding-left: 15px;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    width: 285px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.jukouseiRails p {
+    color: white;
+    font-size: 12px;
+}
+
+.jukouseiRails h5 {
+    color: #f79314;
+    width: 95%;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+}
+
+.jukouseiRails span {
+    font-size: 20px;
+}
+
+.jukouseiText {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.jukousei a {
+    display: block;
+}
+
+.interviewAll{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.interviw {
+    width: 250px;
+    padding:20px 30px 5px;
+    margin: 0 auto;
+    background-color: #f79314;
+    line-height: 6px;
+    border-radius: 50px / 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.interviw p {
+    font-size: 12px;
+}
+
+.footerall {
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    background-color: #f79314;
+}
+
+.footerlist {
+    margin: 0 auto;
+    width:1100px;
+}
+
+.footerlist h6{
+    padding-top: 80px;
+    float:left;    
+}
+.footer {
+    float: left;
+    margin: 70px 0 20px 100px;
+    width: 250px;
+    height: 300px;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footlogo {
+    width: 250px;
+}
+
+.footerSns img {
+    width: 50px;
+    margin: 15px 10px;
+}
+
+
+.footerLink a {
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+    
+}
+
+.footerLink span {
+    font-weight: bold;
+}
+
+.footerright img {
+    width: 120px;
+    margin: 40px 0 0 40px;
+}
+
+.site-footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #f79314;
+}
+
+.footer-responsive {
+    display: none;
+}
+
+.icon-link-all {
+    position: relative;
+    z-index: 10;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.icon-link {
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    margin: 40px auto;
+    width: 220px;
+}
+
+.icon-link p {
+    color: #f79314;
+    font-size: 12px;
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+
+aside {
+    position: absolute;
+    left: -1000px;
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+}         
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -50vw;
+}
+
+input[type="checkbox"]:checked ~ aside {
+    left: 0;
+}
+
+input[type="checkbox"]:checked ~ .back {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.7) !important;
+    z-index: 5;
+    animation: anim 0.5s;
+}
+
+@keyframes anim {
+  100% {
+  transform: translateX(0px);
+  }
+
+  0% {
+  transform: translateX(300px);
+  }
+}
+        
